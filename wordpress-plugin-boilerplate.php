@@ -66,4 +66,4 @@ class Plugin {
     }
 }
 
-RocketRewrites::instance();
+Plugin::instance();
