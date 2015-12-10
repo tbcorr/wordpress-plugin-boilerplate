@@ -42,6 +42,16 @@ class Plugin {
         return plugin_dir_url( __FILE__ );
     }
 
+    public static function get_css_url(){
+
+        return self::get_plugin_url() . 'css/';
+    }
+
+    public static function get_js_url(){
+
+        return self::get_plugin_url() . 'js/';
+    }
+
     public static function get_vendor_dir(){
 
         return self::get_plugin_dir() . 'vendor/';
